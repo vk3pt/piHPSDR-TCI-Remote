@@ -84,6 +84,7 @@ Tailscale encrypts traffic between your devices. Any other VPN that puts both de
 - Modes: LSB, USB, AM, FMN, CWL, CWU, DIGL, DIGU.
 - Band buttons for 160, 80, 40, 30, 20, 17, 15, 12, 11, 10 and 6 m. Each band remembers its last frequency, mode and step.
 - It controls the first receiver only (receiver 0).
+- On a computer: Keyboard keys U = VFO UP and D = VFO DOWN (same default assignments as piHPSDR).
 
 ### Receive audio
 - RX audio is requested as mono, 48 kHz, 32-bit float, which halves the downstream bandwidth compared with stereo (if the server supports it; otherwise stereo is used). Thanks to DL1YCF for his assistance with this feature.
@@ -98,7 +99,8 @@ Tailscale encrypts traffic between your devices. Any other VPN that puts both de
 - When PTT is pressed, RX audio is muted immediately, buffered microphone samples are discarded, and the first 200 ms of microphone audio is silenced. This keeps residual RX audio from being transmitted.
 - The TX meter shows power and SWR. Its scale can be set to 5, 10, 20, 50, 100 or 200 W.
 - The microphone is released when the app is sent to the background, and re-armed when you return to it, where the platform allows.
-- The main PTT button is disabled in CW modes. Space bar = PTT on a computer.
+- The main PTT button is disabled in CW modes.
+- On a computer: Space bar = PTT.
 
 ### CW
 - Five message slots, stored on the device, with SEND and STOP buttons.
