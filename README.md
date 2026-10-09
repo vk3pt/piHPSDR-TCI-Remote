@@ -162,8 +162,7 @@ The APK was built with AppMint, a commercial tool that wraps a web page in an An
 
 - The microphone is the only permission that prompts you. The APK also declares network, vibrate, legacy storage (Android 9 and below) and launcher-badge permissions. They come from the wrapper template and are not used by this app.
 - The wrapper includes third-party libraries that this app does not use.
-- Android installs an update over an existing install only if it is signed with the same key, and keeps your settings in that case. Signing certificate SHA-256: `36:EE:BE:3F:1E:78:E5:A3:ED:9C:3B:4E:50:57:01:1B:C4:55:8C:70:0B:89:E7:E9:FF:EA:4A:CB:DE:CA:4C:D5`
-- APK SHA-256: [TODO: fill in for the release being published]
+- Android installs an update over an existing install only if it is signed with the same key, and keeps your settings in that case. The signing certificate SHA-256 is `36:EE:BE:3F:1E:78:E5:A3:ED:9C:3B:4E:50:57:01:1B:C4:55:8C:70:0B:89:E7:E9:FF:EA:4A:CB:DE:CA:4C:D5`.
 
 ## Licence
 
