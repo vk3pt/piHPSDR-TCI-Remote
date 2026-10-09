@@ -127,7 +127,7 @@ Tailscale encrypts traffic between your devices. Any other VPN that puts both de
 - Panels can be collapsed. Each panel has a lock icon, and a global lock prevents accidental changes. Connection, VFO, PTT and TUNE stay usable while locked; the global lock also locks the RX Audio, TX Audio and PTT Type buttons.
 - Log panel for connection and audio events.
 - Network panel: upload and download rates, session total, session time and RX dropouts.
-- Settings are saved in the browser's local storage on the device (not sent anywhere): connection address, band memory, per-mode filters, zoom and mic gain, audio levels, themes, locks, PTT type, CW messages, squelch and RX buffer. There is no settings export or import.
+- Settings are saved in the browser's local storage on the device (not sent anywhere): connection address, band memory, per-mode filters, zoom and mic gain, audio levels, themes, locks, PTT type, CW messages, squelch and RX buffer.
 
 ## Bandwidth
 
@@ -156,7 +156,7 @@ Mono RX audio needs a piHPSDR version that supports it, and the app requests it 
 - RX audio frame sizes are taken from the bytes actually received, not from the header's length field. TX replies are sized from each TX chrono request the server sends, and sent in step with those requests.
 - Microphone capture uses an AudioWorklet. The panadapter and waterfall use an FFT of the audio.
 - TCI commands used: `audio_start`, `audio_stop`, `audio_stream_channels`, `agc_gain`, `cw_keyer_speed`, `cw_macros`, `cw_macros_stop`, `drive`, `modulation`, `rx_anf_enable`, `rx_apf_enable`, `rx_filter_band`, `rx_nb_enable`, `rx_nr_enable`, `rx_sensors_enable`, `split_enable`, `sql_enable`, `sql_level`, `trx`, `tune`, `tx_sensors_enable`, `vfo`, `volume`.
-- The page makes no network connection other than the WebSocket to the address you enter, and contains no analytics. There is no build step: edit the HTML file and open it.
+- The page makes no network connection other than the WebSocket to the address you enter, and contains no analytics.
 
 ## About the APK
 
