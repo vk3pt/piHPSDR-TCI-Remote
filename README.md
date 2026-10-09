@@ -43,14 +43,14 @@ Developed and tested with an ANAN-10E and a Hermes Lite 2, using piHPSDR 3.1 bui
 
 ### Android (APK)
 
-1. Download the APK from the Releases page. [Releases](https://github.com/vk3pt/piHPSDR-TCI-Remote/releases)
+1. Download the APK from the [Releases](https://github.com/vk3pt/piHPSDR-TCI-Remote/releases/latest) page.
 2. Allow installation from unknown sources when Android asks, and install it.
 3. Grant the microphone permission when you first arm TX Audio.
 4. For uninterrupted listening with the screen off, set the app's battery usage to "Unrestricted" (this process varies slightly by phone).
 
 ### Browser (HTML file)
 
-1. Download the HTML file from the Releases page. [Releases](https://github.com/vk3pt/piHPSDR-TCI-Remote/releases)
+1. Download the HTML file from the [Releases](https://github.com/vk3pt/piHPSDR-TCI-Remote/releases/latest) page.
 2. Open it in your browser from your device's storage.
 
 Notes:
