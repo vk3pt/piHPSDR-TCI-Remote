@@ -24,7 +24,7 @@ piHPSDR's TCI server is designed for programs running on the same network as the
 
 Using TCI this way is outside what it was designed for. The app works around the differences (audio buffering, bandwidth, reconnecting). In the author's use, and for a small group of other users, it has worked well over home broadband and mobile data. Results depend on the quality of your network connection.
 
-TCI is not a lightweight protocol: it carries uncompressed 48 kHz, 32-bit float audio in both directions. In DL1YCF's piHPSDR, support for a mono RX audio channel lets this app automatically halve the receive bandwidth. Transmit audio is stereo and is not reduced. See [Bandwidth](#bandwidth).
+TCI is not a lightweight protocol: it carries uncompressed 48 kHz, 32-bit float audio in both directions. In DL1YCF's piHPSDR, support for a mono RX audio channel lets this app automatically halve the receive bandwidth. See [Bandwidth](#bandwidth).
 
 It is written specifically for piHPSDR by DL1YCF, using the TCI commands piHPSDR provides, and has been developed and tested only against it. It might work with other TCI-compatible servers, but that has not been tested, and some features (mono RX audio, for example) needs support in the server. The code is open source so that anyone can experiment with it or develop it further.
 
@@ -138,7 +138,7 @@ Tailscale encrypts traffic between your devices. Any other VPN that puts both de
 
 Control traffic and frame headers add a little more. Allow for this on metered mobile data.
 
-Mono RX audio needs a piHPSDR version that supports it, and the app requests it automatically. With a server that does not, RX audio arrives as stereo, at about 384 kB/s.
+Mono RX audio needs a piHPSDR version that supports it, and the app requests it automatically. With a server that does not, RX audio arrives as stereo, at about 384 kB/s. Transmit audio is always stereo and is not reduced.
 
 ## Limitations
 
