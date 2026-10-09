@@ -142,7 +142,7 @@ Mono RX audio needs a piHPSDR version that supports it, and the app requests it 
 
 ## Limitations
 
-- TCI was not designed for remote operation, and it is not a lightweight protocol (see Bandwidth). Latency and audio quality depend on your network, and a poor connection will cause audio dropouts. The RX Buffer setting helps with receive; there is no equivalent for transmit.
+- TCI was not designed for this type of remote operation, and it is not a lightweight protocol (see Bandwidth). Latency and audio quality depend on your network, and a poor connection will cause audio dropouts. The RX Buffer setting helps with receive; there is no equivalent for transmit.
 - Only one client at a time should have RX audio enabled. Newer piHPSDR builds enforce this per receiver. If another program (WSJT-X, for example) is using TCI audio, turn off RX Audio in this app.
 - Android may suspend or stop the app in the background (check your device's battery optimisation settings). The microphone is released when the app is backgrounded, so you can listen in the background but not transmit.
 - iOS is not directly supported (feel free to take the HTML and create an app yourself).
