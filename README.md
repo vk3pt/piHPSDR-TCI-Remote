@@ -56,7 +56,7 @@ Developed and tested with an ANAN-10E and a Hermes Lite 2, using piHPSDR 3.1 bui
 Notes:
 - Keep the same filename and location when you update. Some browsers (Firefox, for example) tie saved settings to the file's path, so moving or renaming it makes your settings appear to reset.
 - The page cannot be served from an HTTPS website. It connects with plain `ws://`, which browsers block from HTTPS pages.
-- On Android, use the APK. Browsers there may block microphone access to a local file.
+- On Android, use the APK. (Browsers there may block microphone access to a local HTML file, etc. The HTML may run under inside a WebView wrapper app on Android or on iOS devices, but this is untested.) 
 
 ### Connecting
 
