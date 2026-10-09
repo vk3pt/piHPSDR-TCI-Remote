@@ -84,7 +84,7 @@ Tailscale encrypts traffic between your devices. Any other VPN that puts both de
 - Modes: LSB, USB, AM, FMN, CWL, CWU, DIGL, DIGU.
 - Band buttons for 160, 80, 40, 30, 20, 17, 15, 12, 11, 10 and 6 m. Each band remembers its last frequency, mode and step.
 - It controls the first receiver only (receiver 0).
-- On a computer: Keyboard keys U = VFO UP and D = VFO DOWN (same default assignments as piHPSDR).
+- On a computer: Keyboard keys U = VFO UP and D = VFO DOWN (the same default assignments used in piHPSDR).
 
 ### Receive audio
 - RX audio is requested as mono, 48 kHz, 32-bit float, which halves the downstream bandwidth compared with stereo (if the server supports it; otherwise stereo is used). Thanks to DL1YCF for his assistance with this feature.
