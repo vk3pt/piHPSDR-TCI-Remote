@@ -1,4 +1,4 @@
-[icon](/piHPSDR TCI Icon.png)
+[icon](piHPSDR TCI Icon.png)
 
 
 # piHPSDR TCI Remote
