@@ -1,5 +1,6 @@
-[icon](main/piHPSDR TCI Icon.png)
-
+<p align="center">
+  <img src="/piHPSDR-TCI-Icon.png" alt="piHPSDR TCI Remote">
+</p>
 
 # piHPSDR TCI Remote
 
@@ -7,7 +8,15 @@ A web app for operating [piHPSDR](https://github.com/dl1ycf/pihpsdr), the SDR pr
 
 This is an independent project. It is not affiliated with piHPSDR or Expert Electronics.
 
-[TODO: screenshot(s)]
+
+<p align="center">
+  <img src="screenshots/main-rx.jpg" width="200" alt="Main screen, receiving">
+  <img src="screenshots/main-tx.jpg" width="200" alt="Main screen, transmitting">
+  <img src="screenshots/settings.jpg" width="200" alt="Levels and RX processing">
+  <img src="screenshots/cw-rx.jpg" width="200" alt="CW panel, receiving">
+  <img src="screenshots/cw-tx.jpg" width="200" alt="CW panel, transmitting">
+  <img src="screenshots/options.jpg" width="200" alt="Options and network panels">
+</p>
 
 ## What it is for
 
@@ -85,7 +94,7 @@ Tailscale encrypts traffic between your devices. Any other VPN that puts both de
 
 ### Transmit
 - PTT has three types, selected with the PTT Type button: Tap (toggle), Hold, and Off (receive-only lock). TUNE follows the same Hold/Toggle setting and uses the current TX Drive.
-- TX Audio arms the microphone. A Mic Input option pins capture to a specific audio input. Mic gain (-20 to +20 dB) is remembered per mode. TX Drive is 0 to 100.
+- TX Audio arms the microphone (the button then reads "Mic Armed"). A Mic Input option pins capture to a specific audio input. Mic gain (-20 to +20 dB) is remembered per mode. TX Drive is 0 to 100.
 - When PTT is pressed, RX audio is muted immediately, buffered microphone samples are discarded, and the first 200 ms of microphone audio is silenced. This keeps residual RX audio from being transmitted.
 - The TX meter shows power and SWR. Its scale can be set to 5, 10, 20, 50, 100 or 200 W.
 - The microphone is released when the app is sent to the background, and re-armed when you return to it, where the platform allows.
@@ -106,7 +115,7 @@ Tailscale encrypts traffic between your devices. Any other VPN that puts both de
 ### Display
 - S-meter (S1 to S9 and above), which switches to power and SWR during transmit.
 - Panadapter and waterfall, computed from the received audio (labelled "Audio Derived" in the app). piHPSDR's TCI carries no IQ data, so a true RF waterfall is not possible. The display is derived from the audio instead, so it shows the audio passband, not the RF spectrum. During transmit it shows the microphone audio.
-  - Zoom presets: 1, 1.5, 3, 4, 6, 12 and 24 kHz, remembered per mode.
+  - Zoom presets: 1, 1.5, 3, 4, 6 and 12 kHz, and Full (24 kHz), remembered per mode.
   - Waterfall palettes: Classic, Jet, Jet Black, Fire, Viridis, Grayscale. Waterfall gain -30 to +30 dB.
   - Fill: Off, Accent, Green, Blue, Temp, Temp 2, WF Theme. Line: Accent, Green, Blue, Yellow, Red, White, Temp.
 - Blue or green accent theme.
