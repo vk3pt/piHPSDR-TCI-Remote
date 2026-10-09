@@ -10,12 +10,12 @@ This is an independent project. It is not affiliated with piHPSDR or Expert Elec
 
 
 <p align="center">
-  <img src="screenshots/main-rx.jpg" width="200" alt="Main screen, receiving">
-  <img src="screenshots/main-tx.jpg" width="200" alt="Main screen, transmitting">
-  <img src="screenshots/settings.jpg" width="200" alt="Levels and RX processing">
-  <img src="screenshots/cw-rx.jpg" width="200" alt="CW panel, receiving">
-  <img src="screenshots/cw-tx.jpg" width="200" alt="CW panel, transmitting">
-  <img src="screenshots/options.jpg" width="200" alt="Options and network panels">
+  <img src="screenshots/main-rx.jpg" width="220" alt="Main screen, receiving">
+  <img src="screenshots/main-tx.jpg" width="220" alt="Main screen, transmitting">
+  <img src="screenshots/settings.jpg" width="220" alt="Levels and RX processing">
+  <img src="screenshots/cw-rx.jpg" width="220" alt="CW panel, receiving">
+  <img src="screenshots/cw-tx.jpg" width="220" alt="CW panel, transmitting">
+  <img src="screenshots/options.jpg" width="220" alt="Options and network panels">
 </p>
 
 ## What it is for
