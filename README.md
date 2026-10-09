@@ -30,14 +30,14 @@ It is written specifically for piHPSDR by DL1YCF, using the TCI commands piHPSDR
 
 ## Requirements
 
-- piHPSDR with the TCI server enabled (it listens on port 40001 by default). [TODO: minimum piHPSDR version, once the TCI audio changes are merged]
+- piHPSDR with the TCI server enabled (it listens on port 40001 by default), built from the master branch at commit 336e5c9 (6 October 2026) or later. 
 - A device on the same network as piHPSDR, or connected to it through a VPN:
   - an Android phone or tablet, Android 7.0 or later, using the APK; or
   - a computer with a modern browser (Firefox and Chrome have been tested), opening the HTML file; or
   - an iOS device running the HTML file inside a third-party WebView wrapper app (untested).
 - A microphone, to transmit voice.
 
-Developed and tested with an ANAN-10E and a Hermes Lite 2, using piHPSDR 3.1 builds. Earlier piHPSDR versions have not been verified, as earlier versions may not support all features.
+Developed and tested with an ANAN-10E and a Hermes Lite 2, using piHPSDR 3.1 builds. Earlier piHPSDR versions have not been verified and may not support all features.
 
 ## Installing
 
