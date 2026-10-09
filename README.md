@@ -26,18 +26,18 @@ Using TCI this way is outside what it was designed for. The app works around the
 
 TCI is not a lightweight protocol: it carries uncompressed 48 kHz, 32-bit float audio in both directions. In DL1YCF's piHPSDR, support for a mono RX audio channel lets this app automatically halve the receive bandwidth. Transmit audio is stereo and is not reduced. See [Bandwidth](#bandwidth).
 
-It is written specifically for piHPSDR by DL1YCF, using the TCI commands piHPSDR provides, and has been developed and tested only against it. It might work with other TCI-compatible servers, but that has not been tested, and some behaviour (mono RX audio, for example) needs support in the server. The code is open source so that anyone can experiment with it or develop it further.
+It is written specifically for piHPSDR by DL1YCF, using the TCI commands piHPSDR provides, and has been developed and tested only against it. It might work with other TCI-compatible servers, but that has not been tested, and some features (mono RX audio, for example) needs support in the server. The code is open source so that anyone can experiment with it or develop it further.
 
 ## Requirements
 
-- piHPSDR with the TCI server enabled (it listens on port 40001 by default), built from the master branch at commit 336e5c9 (6 October 2026) or later. 
+- piHPSDR with the TCI server enabled (it listens on port 40001 by default), built from the master branch at commit 336e5c9 (6 October 2026) or later. That version includes mono RX audio and NR memory.
 - A device on the same network as piHPSDR, or connected to it through a VPN:
   - an Android phone or tablet, Android 7.0 or later, using the APK; or
   - a computer with a modern browser (Firefox and Chrome have been tested), opening the HTML file; or
   - an iOS device running the HTML file inside a third-party WebView wrapper app (untested).
 - A microphone, to transmit voice.
 
-Developed and tested with an ANAN-10E and a Hermes Lite 2, using piHPSDR 3.1 builds. Earlier piHPSDR versions have not been verified and may not support all features.
+Developed and tested with an ANAN-10E and a Hermes Lite 2, using piHPSDR master at commit 336e5c9. Earlier piHPSDR versions have not been verified and may not support all features.
 
 ## Installing
 
