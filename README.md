@@ -1,4 +1,12 @@
-![Icon](piHPSDR TCI Icon.png)
+![Main screen](piHPSDR TCI Icon.png)
+<p align="center">
+  <img src="screenshots/main.png" width="260" alt="Main screen">
+  <img src="screenshots/tx.png" width="260" alt="Transmitting">
+  <img src="screenshots/cw.png" width="260" alt="CW and options">
+</p>
+
+
+
 # piHPSDR TCI Remote
 
 A web app for operating [piHPSDR](https://github.com/dl1ycf/pihpsdr), the SDR program by DL1YCF, remotely from a phone, tablet or computer, using piHPSDR's built-in TCI server. It is a single HTML file with no dependencies, plus an Android APK that wraps the same page for easy installation.
