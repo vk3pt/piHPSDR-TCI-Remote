@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/piHPSDR-TCI-Icon.png" alt="piHPSDR TCI Remote">
+  <img src="piHPSDR-TCI-Icon.png" alt="piHPSDR TCI Remote">
 </p>
 
 # piHPSDR TCI Remote
@@ -34,7 +34,7 @@ It is written specifically for piHPSDR by DL1YCF, using the TCI commands piHPSDR
 - A device on the same network as piHPSDR, or connected to it through a VPN:
   - an Android phone or tablet, Android 7.0 or later, using the APK; or
   - a computer with a modern browser (Firefox and Chrome have been tested), opening the HTML file; or
-  - an iOS device (or Android device) running the HTML file inside an independent WebView wrapper app (untested).
+  - an iOS device running the HTML file inside a third-party WebView wrapper app (untested).
 - A microphone, to transmit voice.
 
 Developed and tested with an ANAN-10E and a Hermes Lite 2, using piHPSDR 3.1 builds. Earlier piHPSDR versions have not been verified, as earlier versions may not support all features.
@@ -56,7 +56,7 @@ Developed and tested with an ANAN-10E and a Hermes Lite 2, using piHPSDR 3.1 bui
 Notes:
 - Keep the same filename and location when you update. Some browsers (Firefox, for example) tie saved settings to the file's path, so moving or renaming it makes your settings appear to reset.
 - The page cannot be served from an HTTPS website. It connects with plain `ws://`, which browsers block from HTTPS pages.
-- On Android, use the APK. (Browsers there may block microphone access to a local HTML file, etc. The HTML may run in a WebView wrapper app on Android or on iOS devices, but this is untested.) 
+- On Android, use the APK. Browsers there may block access to a local HTML file. Running the HTML in a different WebView wrapper app (on Android or iOS) might work, but this is untested.
 
 ### Connecting
 
